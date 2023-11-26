@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="text-center my-5">
+        <a href="./index.html"
+          ><button
+            class="bg-red-600 py-[10px] px-5 text-white text-[18px] rounded"
+          >
+            Home
+          </button></a
+        >
+      </div>
+    </header>
+    <main>
+      <!-- Discuss the scope of `var`, `let`, and `const` -->
+      <section>
+        <div class="container mx-auto">
+          <h1 class="text-center my-5 text-2xl">
+            scope of
+            <span class="uppercase font-bold text-indigo-500">var</span>
+            <span class="uppercase font-bold text-indigo-400">let</span> and
+            <span class="uppercase font-bold text-indigo-700">const</span>
+          </h1>
+          <table class="min-w-full bg-white border border-gray-300">
+            <thead>
+              <tr>
+                <th class="py-2 px-4 border uppercase">var</th>
+                <th class="py-2 px-4 border uppercase">let</th>
+                <th class="py-2 px-4 border uppercase">const</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-2 px-4 border">
+                  Var is a functional scope and golobal variable. We can acces
+                  outside of '{}'.
+                </td>
+                <td class="py-2 px-4 border">
+                  Let is a block scope. We can update but can't re-declear and
+                  acces outside of '{}'.
+                </td>
+                <td class="py-2 px-4 border">
+                  Const is a block scope. We can't update and re-declear and
+                  acces outside of '{}'.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- - Tell the use cases of `null` and `undefined` -->
+      <section class="my-11">
+        <div class="container mx-auto">
+          <h1 class="text-center my-5 text-2xl">
+            The use cases of
+            <span class="uppercase font-bold text-indigo-500">null</span> and
+            <span class="uppercase font-bold text-indigo-400">undefined</span>
+          </h1>
+          <table class="min-w-full bg-white border border-gray-300">
+            <thead>
+              <tr>
+                <th class="py-2 px-4 border uppercase">null</th>
+                <th class="py-2 px-4 border uppercase">undefined</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-2 px-4 border">
+                  When we declear a variable but if we intentionally want a
+                  variable to have 'no value'
+                </td>
+                <td class="py-2 px-4 border">
+                  When we declear a variable but do not assign a value then the
+                  variable comes undefined
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <div class="text-center mt-8">
+          <h1 class="text-xl my-5">Mean by REST API</h1>
+          <p>
+            We can say REST API is a middle man of server and user. User can
+            acces data throw REST API from server and Browser show this data.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+  </body>
+</html>
